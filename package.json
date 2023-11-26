@@ -8,10 +8,10 @@
 	},
 	"scripts": {
 		"test": "ts-node src/index.ts",
-		"start": "pnpm run compile && node build/index.js",
+		"start": "npm run compile && node build/index.js",
 		"compile": "tsc -p .",
 		"format": "prettier . --write",
-		"lint": "pnpm run format && eslint ."
+		"lint": "npm run format && eslint ."
 	},
 	"keywords": [],
 	"author": "Nich87",
